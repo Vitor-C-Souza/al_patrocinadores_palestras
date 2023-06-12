@@ -17,6 +17,11 @@ class PatrocinadoresAlura extends WP_Widget
         );
     }
 
+    /**
+     * Summary of form
+     * @param mixed $instance
+     * @return void
+     */
     public function form($instance)
     {
 ?>
